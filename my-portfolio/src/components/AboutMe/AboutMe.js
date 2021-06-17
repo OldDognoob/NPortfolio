@@ -1,5 +1,5 @@
 import React from "react";
-import { FortAwesomeAIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 import {
   faDesktop,
