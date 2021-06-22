@@ -37,3 +37,24 @@ p,h1{
 border-radius: 15px;
 border: 1px solid transparent;
 }
+.my-nav-style li a:hover {
+    border: 1px solid rgb(134, 2,44);
+  }
+  .active {
+    background-color: rgb(134,2,44);
+    border-radius: 15px;
+    color: black;
+    transition: all ease 0.9s;
+    border: 1px solid rgb(134,2,44);
+  }
+  .myicon {
+    font-size: 50px;
+    color: white;
+  }
+  .homeicon {
+    color: white;
+  }
+  .social-links a {
+    text-decoration: none;
+    color: white;
+  }
