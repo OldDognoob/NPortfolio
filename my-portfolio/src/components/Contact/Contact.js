@@ -71,15 +71,15 @@ const Contact = () => {
                   type="submit"
                   value="Send Message"
                 />
-                {success ? (
+                {success ? 
                   <p className="text-success">Email sent successfully</p>
-                ) : (
+                 : 
                   ""
-                )}
+                }
               </form>
             </div>
           </div>
-          <h4 className="brant-text">Other ways to get in touch</h4>
+          <h4 className="brand-text">Other ways to get in touch</h4>
           <div className="row text-center mt-5 m-5">
             <div className="col-md-4">
               <a href="https://www.linkedin.com/in/dimoschristidis/">
