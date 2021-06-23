@@ -34,7 +34,7 @@ p,h1{
     color:rgb(134,2,44);
 }
 .my-nav-style li a{
-border-radius: 15px;
+border-radius: 12px;
 border: 1px solid transparent;
 }
 .my-nav-style li a:hover {
