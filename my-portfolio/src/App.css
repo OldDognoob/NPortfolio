@@ -94,6 +94,14 @@ border: 1px solid transparent;
    display: inline-block;
    margin-top: 5px;
  }
+ .lowskill {
+  margin-right: 5px;
+  background-color: rgb(134, 2, 44);
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
  .project-container {
    transition: all ease 0.5s;
  }
