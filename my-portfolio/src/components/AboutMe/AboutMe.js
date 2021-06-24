@@ -16,9 +16,11 @@ const AboutMe = () => {
     "REACT",
     "REDUX",
     "PYTHON",
+    "BOOTSTRAP",
+    "MATERIAL-UI",
   ];
   const backendskills = ["NODE.JS", "EXPRESS", "MySQL", "SQL"];
-  const familiar = ["NEXT.JS", "POSTMAN", "SASS", "LESS", "BOOTSTRAP"];
+  const familiar = ["NEXT.JS", "POSTMAN", "SASS", "LESS", "STYLED-COMPONENTS"];
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
