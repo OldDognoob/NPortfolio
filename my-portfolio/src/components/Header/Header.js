@@ -61,14 +61,14 @@ const Header = () => {
                       About Me
                     </NavLink>
                   </li>
-                  <li class="nav-item ms-1">
+                  {/* <li class="nav-item ms-1">
                     <NavLink
                       to="/resume"
                       className="nav-link text-white"
                       activeClassName="active"
                     >
                     </NavLink>
-                  </li>
+                  </li> */}
                   <li class="nav-item ms-1">
                     <NavLink
                       to="/projects"
