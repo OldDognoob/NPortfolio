@@ -8,6 +8,12 @@ import {
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
 
+import {skills} from "../Skills/skills-data";
+// import {skillsItem} from "../Skills/skillsItem";
+
+import { Row, Col, Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.css";
+
 const AboutMe = () => {
   const frontendskills = [
     "HTML5",
@@ -70,6 +76,7 @@ const AboutMe = () => {
               {frontendskills.map((skill) => (
                 <span className="singleSkill">{skill}</span>
               ))}
+           
             </div>
           </div>
           <div className="col-md-4">
