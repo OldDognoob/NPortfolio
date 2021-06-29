@@ -11,16 +11,14 @@ import {
 const AboutMe = () => {
   const frontendskills = [
     "HTML5",
-    "CSS",
     "JAVASCRIPT",
+    "CSS",
     "REACT",
     "REDUX",
     "PYTHON",
-    "BOOTSTRAP",
-    "MATERIAL-UI",
   ];
   const backendskills = ["NODE.JS", "EXPRESS", "MySQL", "SQL"];
-  const familiar = ["NEXT.JS", "POSTMAN", "SASS", "LESS", "STYLED-COMPONENTS"];
+  const familiar = ["NEXT.JS","SASS", "LESS", "BOOTSTRAP","MATERIAL-UI"];
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
