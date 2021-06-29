@@ -14,11 +14,14 @@ const AboutMe = () => {
     "JAVASCRIPT",
     "CSS",
     "REACT",
-    "REDUX",
-    "PYTHON",
+    "REDUX"
+   
   ];
-  const backendskills = ["NODE.JS", "EXPRESS", "MySQL", "SQL"];
-  const familiar = ["NEXT.JS","SASS", "LESS", "BOOTSTRAP","MATERIAL-UI"];
+  const backendskills = ["NODE.JS", "EXPRESS"];
+  const database = ["PostgreSQL", "MS-SQL", "SQL", "MongoDB"];
+  const programming = ["PYTHON"];
+  const version = ["GITHUB","GIT"];
+  const familiar = ["NEXT.JS","SASS", "LESS", "BOOTSTRAP","MATERIAL-UI","TAILWIND"];
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
@@ -73,6 +76,30 @@ const AboutMe = () => {
             <div className="service-box">
               <h4 className="brand-text">Backend skills: </h4>
               {backendskills.map((skill) => (
+                <span className="singleSkill">{skill}</span>
+              ))}
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="service-box">
+              <h4 className="brand-text">Database skills: </h4>
+              {database.map((skill) => (
+                <span className="singleSkill">{skill}</span>
+              ))}
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="service-box">
+              <h4 className="brand-text">Programming Language: </h4>
+              {programming.map((skill) => (
+                <span className="singleSkill">{skill}</span>
+              ))}
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="service-box">
+              <h4 className="brand-text">Version Control: </h4>
+              {version.map((skill) => (
                 <span className="singleSkill">{skill}</span>
               ))}
             </div>
