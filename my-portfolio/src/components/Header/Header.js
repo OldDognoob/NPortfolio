@@ -67,10 +67,6 @@ const Header = () => {
                       className="nav-link text-white"
                       activeClassName="active"
                     >
-                      <span>
-                        <FontAwesomeIcon icon={faFileAlt}></FontAwesomeIcon>
-                      </span>{" "}
-                      Resume
                     </NavLink>
                   </li>
                   <li class="nav-item ms-1">
