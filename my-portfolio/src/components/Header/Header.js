@@ -14,11 +14,11 @@ const Header = () => {
   return (
     <div>
       <header className="sticky-top">
-        <div className="container">
-          <nav className="navbar navbar-expand-lg navbar-light">
-            <div className="container-fluid">
-              <a className="navbar-brand w-25" href="#">
-                <img className="w-75" src="icons/logo.png" alt="" />
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand w-25" href="#">
+                <img class="w-75" src="icons/logo.png" alt="" />
               </a>
               <button
                 class="navbar-toggler bg-white"
@@ -27,9 +27,9 @@ const Header = () => {
                 data-bs-target="#navbarNav"
                 aria-controls="navbarNav"
                 aria-expanded="false"
-                aria-babel="Toggle navigation"
+                aria-label="Toggle navigation"
               >
-                <span className="navbar-toggler-icon bg-white"></span>
+                <span class="navbar-toggler-icon bg-white"></span>
               </button>
               <div
                 class="myHeaderStyle collapse navbar-collapse justify-content-end"
@@ -61,14 +61,18 @@ const Header = () => {
                       About Me
                     </NavLink>
                   </li>
-                  {/* <li class="nav-item ms-1">
+                  <li class="nav-item ms-1">
                     <NavLink
                       to="/resume"
                       className="nav-link text-white"
                       activeClassName="active"
                     >
+                      <span>
+                        <FontAwesomeIcon icon={faFileAlt}></FontAwesomeIcon>
+                      </span>{" "}
+                      Skills
                     </NavLink>
-                  </li> */}
+                  </li>
                   <li class="nav-item ms-1">
                     <NavLink
                       to="/projects"
@@ -104,4 +108,6 @@ const Header = () => {
     </div>
   );
 };
+
 export default Header;
+
