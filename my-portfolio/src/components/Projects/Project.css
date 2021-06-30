@@ -12,6 +12,6 @@
   
   /* Style your items */
   .my-masonry-grid_column > div { 
-    border:1px solid red;
+    border:1px solid rgb(97, 132, 247);
     margin-bottom: 30px;
   }

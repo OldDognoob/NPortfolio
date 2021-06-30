@@ -6,6 +6,7 @@ import { faEnvelope, faAt } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faTwitter,
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
@@ -81,7 +82,7 @@ const Contact = () => {
           </div>
           <h4 className="brand-text">Other ways to get in touch</h4>
           <div className="row text-center mt-5 m-5">
-            <div className="col-md-4">
+            <div className="col-sm">
               <a href="https://www.linkedin.com/in/dimoschristidis/">
                 <FontAwesomeIcon
                   className="myicon"
@@ -89,7 +90,7 @@ const Contact = () => {
                 ></FontAwesomeIcon>
               </a>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm">
               <a href="https://twitter.com/DimosthenisChr1">
                 <FontAwesomeIcon
                   className="myicon"
@@ -97,7 +98,15 @@ const Contact = () => {
                 ></FontAwesomeIcon>
               </a>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm">
+              <a href="https://github.com/OldDognoob">
+                <FontAwesomeIcon
+                  className="myicon"
+                  icon={faGithub}
+                ></FontAwesomeIcon>
+              </a>
+            </div>
+            <div className="col-sm">
               <a href="christidis.dimosthenis@gmail.com">
                 <FontAwesomeIcon
                   className="myicon"
