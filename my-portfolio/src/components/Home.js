@@ -16,10 +16,9 @@ const Home = () => {
       <div style={{ height: "100vh", marinTop: "-56" }}>
         <div className="home-content-container h-100 d-flex flex-column align-items-center justify-content-center">
           <h1>Welcome to my World</h1>
-          <h1>Hi,</h1>
-          <h1>I am Dimos, a</h1>
+          <h2>I am Dimos, a</h2>
           <h1>
-            <span className="brand-text">
+            <span className="typingText">
               <Typewriter
                 options={{
                   strings: [

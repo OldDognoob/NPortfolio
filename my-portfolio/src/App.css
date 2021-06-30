@@ -1,10 +1,17 @@
 body {
-    background-color: #585757;
+  background-image: url("./components/images/Room.jpg");
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.999;
+    /* background-color: #585757; */
     color:white;
+    /* color: #49fb35; */
     position: relative;
 }
 body::before{
     /* background-image:url("https://images.unsplash.com/photo-1574192323942-cec035ad64f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"); */
+    /* background-image: url("./components/images/Room.jpg"); */
     content:"";
     position: absolute;
     width: 100%;
@@ -19,7 +26,10 @@ p,h1{
     margin:0;
 }
 .home-content-container h1{
-    font-size: 60px;
+    font-size: 60px;  
+}
+.home-content-container h2{
+  font-size: 50px;
 }
 .brand-btn {
     border: 1px solid rgb(136, 97, 109);
@@ -32,6 +42,14 @@ p,h1{
 }
 .brand-text {
     color:rgb(134,2,44);
+}
+.typingText{
+  /* padding-left:12px; */
+  /* padding-right:0.1%; */
+  font-size: 70px;
+  font-weight: bold;
+  color:rgb(134,2,44);
+  font-family: "Courier New", Courier, monospace;
 }
 .my-nav-style li a{
 border-radius: 12px;
@@ -68,6 +86,24 @@ border: 1px solid transparent;
    position: relative;
    cursor: pointer;
  }
+ .service-box1 {
+  padding:25px;
+  margin-top: 150px;
+  position: relative;
+  cursor: pointer;
+}
+.service-box2 {
+  padding:25px;
+  margin-top: 150px;
+  position: relative;
+  cursor: pointer;
+}
+.service-box3 {
+  padding:25px;
+  margin-top: 150px;
+  position: relative;
+  cursor: pointer;
+}
  .service-box::before{
    content:"";
    position: absolute;
@@ -79,8 +115,24 @@ border: 1px solid transparent;
    /* background-image: url("./components/images/"); */
  }
  .service-box:hover{
-   background-color: rgb(245, 179, 245);
+   background-color: rgb(110, 108, 253);
+   opacity:0.7;
    transition: all ease 0.6s;
+ }
+ .service-box1:hover{
+  background-color: rgb(110, 108, 253);
+  opacity:0.7;
+  transition: all ease 0.6s;
+ }
+ .service-box2:hover{
+  background-color: rgb(110, 108, 253);
+  opacity:0.7;
+  transition: all ease 0.6s;
+ }
+ .service-box3:hover{
+  background-color: rgb(110, 108, 253);
+  opacity:0.7;
+  transition: all ease 0.6s;
  }
  .service-box:hover .myicon{
    color: white;

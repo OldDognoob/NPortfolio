@@ -76,7 +76,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="service-box">
+            <div className="service-box1">
               <h4 className="brand-text">Programming Language: </h4>
               {/* {programming.map((skill) => (
                 <span className="singleSkill">{skill}</span>
@@ -84,7 +84,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="service-box">
+            <div className="service-box2">
               <h4 className="brand-text">Version Control: </h4>
               {/* {version.map((skill) => (
                 <span className="singleSkill">{skill}</span>
@@ -92,7 +92,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="service-box">
+            <div className="service-box3">
               <h4 className="brand-text">Familiar with: </h4>
               {/* {familiar.map((skill) => (
                 <span className="lowskill">{skill}</span>
