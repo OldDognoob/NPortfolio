@@ -24,6 +24,8 @@ body::before{
 }
 p,h1{
     margin:0;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 .home-content-container h1{
     font-size: 60px;  
@@ -42,6 +44,7 @@ p,h1{
 }
 .brand-text {
     color:rgb(134,2,44);
+   
 }
 .typingText{
   /* padding-left:12px; */
@@ -81,6 +84,7 @@ border: 1px solid transparent;
     color: white;
   }
  .service-box {
+   
    padding:25px;
    margin-top: 20px;
    position: relative;
@@ -143,7 +147,8 @@ border: 1px solid transparent;
  }
  .singleSkill{
    margin-right:5px;
-   background-color: rgb(134,2,44);
+   background-color: rgb(13, 14, 39);
+   opacity: 0.7;
    border-radius: 10px;
    padding:5px;
    display: inline-block;
@@ -151,7 +156,8 @@ border: 1px solid transparent;
  }
  .lowskill {
   margin-right: 5px;
-  background-color: rgb(134, 2, 44);
+  background-color: rgb(13, 14, 39);
+   opacity: 0.7;
   border-radius: 10px;
   padding: 5px;
   display: inline-block;
