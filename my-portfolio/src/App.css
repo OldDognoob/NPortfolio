@@ -73,7 +73,13 @@ border: 1px solid transparent;
     width: 25px;
     border-radius: 50%;
     margin: 15px;
-    /* color: white; */
+    transition: all .35s ease;
+    color: white;
+  }
+  .myicon:hover{
+    color: rgb(110, 108, 253);
+    opacity:80%;
+    transform:translateY(.125rem);
   }
   
   .homeicon {
