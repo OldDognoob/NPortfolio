@@ -1,0 +1,30 @@
+/* .Skills{
+    height: auto;
+    min-height: 600px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .icons_list {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 88%;
+    max-width: 900px;
+    list-style: none;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+  }
+  
+  .icons_list li {
+    text-align: center;
+    padding: 2.5em;
+  }
+  
+  .icon {
+    font-size: 3.5em;
+    background-color: rgb(180, 35, 35);
+  }
+   */
