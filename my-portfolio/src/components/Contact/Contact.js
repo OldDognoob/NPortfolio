@@ -75,7 +75,7 @@ const Contact = () => {
                 {success ? 
                   <p className="text-success">Email sent successfully</p>
                  : 
-                  ""
+                  ''
                 }
               </form>
             </div>
@@ -107,7 +107,7 @@ const Contact = () => {
               </a>
             </div>
             <div className="col-sm">
-              <a href="christidis.dimosthenis@gmail.com">
+              <a href="mailto:christidis.dimosthenis@gmail.com">
                 <FontAwesomeIcon
                   className="myicon"
                   icon={faAt}
