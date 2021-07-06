@@ -13,12 +13,12 @@ import "./Project.css";
 const Projects = () => {
     const projects =[
         {
-            img:"",
-            title:"",
+            img:"movie app",
+            title:"MovieApp",
             description:"",
             technology:[],
             livesite:"",
-            github:""
+            github:"https://github.com/OldDognoob/MovieApp/tree/master/movie-app"
         },
         {
             img:"",
