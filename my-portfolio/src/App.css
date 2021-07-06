@@ -128,21 +128,26 @@ border: 1px solid transparent;
    background-color: rgb(110, 108, 253);
    opacity:0.7;
    transition: all ease 0.6s;
+   transform:translateY(.65rem);
  }
  .service-box1:hover{
   background-color: rgb(110, 108, 253);
   opacity:0.7;
   transition: all ease 0.6s;
+  transform:translateY(.65rem);
+ 
  }
  .service-box2:hover{
   background-color: rgb(110, 108, 253);
   opacity:0.7;
   transition: all ease 0.6s;
+  transform:translateY(.65rem);
  }
  .service-box3:hover{
   background-color: rgb(110, 108, 253);
   opacity:0.7;
   transition: all ease 0.6s;
+  transform:translateY(.65rem);
  }
  .service-box:hover .myicon{
    color: white;
