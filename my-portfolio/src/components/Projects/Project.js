@@ -2,11 +2,12 @@ import React from "react";
 import Masonry from "react-masonry-css";
 
 /*Projects*/
-import movieApp from "../images/MovieApp.png";
+import MovieApp from "../images/movieApp.png";
 import Bettiorium from "../images/Bettiorium.png";
 import HangMan from "../images/HangMan.png";
 import QuizHooks from "../images/QuizHooks.png";
 import TodoFast from "../images/TodoFast.png";
+import FoodAPI from "../images/FoodAPI.png";
 
 
 import {motion} from"framer-motion";
@@ -18,15 +19,15 @@ import "./Project.css";
 const Projects = () => {
     const projects =[
         {
-            img:"movieApp",
+            img:MovieApp,
             title:"MovieApp",
             description:"An app of finding movies",
-            technology:[],
+            technology:["REACT"],
             livesite:"https://movie-app-cyan-psi.vercel.app/",
             github:"https://github.com/OldDognoob/MovieApp/tree/master/movie-app"
         },
         {
-            img:"Bettiorium",
+            img:Bettiorium,
             title:"Bettiorium",
             description:"A social website for a group of crazy friends",
             technology:["REACT","AXIOS","REACT-PLAYER","STYLED-COMPONENTS"],
@@ -34,7 +35,7 @@ const Projects = () => {
             github:"https://github.com/OldDognoob/Bettiorium"
         },
         {
-            img:"HangMan",
+            img:HangMan,
             title:"HangMan",
             description:"A simple game of finding the correct word, otherwise we hang the man!",
             technology:[],
@@ -42,23 +43,23 @@ const Projects = () => {
             github:"https://github.com/OldDognoob/HangMan"
         },
         {
-            img:"TodoFast",
+            img:TodoFast,
             title:"TodoFast",
             description:"A nice color todo list for Maria!",
-            technology:[],
+            technology:["REACT",""],
             livesite:"https://todo-fast.vercel.app/",
             github:"https://github.com/OldDognoob/TodoFast"
         },
         {
-            img:"QuizHooks",
+            img:QuizHooks,
             title:"QuizHooks",
             description:"A quiz game of five questions based on React Hooks",
-            technology:[],
+            technology:["REACT","REACT-HOOKS"],
             livesite:"https://quiz-hooks.vercel.app/",
             github:"https://github.com/OldDognoob/QuizHooks"
         },
         {
-            img:"FOODAPI",
+            img:FoodAPI,
             title:"FoodAPI",
             description:"Searching for new food recipes",
             technology:["REACT","AXIOS"],
@@ -86,9 +87,10 @@ const Projects = () => {
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column"
                 >
-                    {projects.map((project)=>(
-                        <SingleProject project={project}></SingleProject>
-                    ))}
+                    {
+                    projects.map(project=>
+                        <SingleProject project={project}></SingleProject>)
+                    }
                 </Masonry>
             </div>
         </motion.div>

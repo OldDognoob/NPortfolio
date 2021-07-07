@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route,useLocation} from "react-router-d
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Project";
 import Contact from "./components/Contact/Contact";
 import { AnimatePresence } from "framer-motion";
 import './App.css';
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/skills">
             <Skills></Skills>
+          </Route>
+          <Route path='/projects'>
+            <Projects></Projects>
           </Route>
         <Route path="/contact">
           <Contact></Contact>

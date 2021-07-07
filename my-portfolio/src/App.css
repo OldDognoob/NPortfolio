@@ -176,6 +176,7 @@ border: 1px solid transparent;
 }
  .project-container {
    transition: all ease 0.5s;
+   
  }
  .project-links{
    display: none;
