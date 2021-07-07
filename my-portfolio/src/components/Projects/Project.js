@@ -3,6 +3,10 @@ import Masonry from "react-masonry-css";
 
 /*Projects*/
 import movieApp from "../images/MovieApp.png";
+import Bettiorium from "../images/Bettiorium.png";
+import HangMan from "../images/HangMan.png";
+import QuizHooks from "../images/QuizHooks.png";
+import TodoFast from "../images/TodoFast.png";
 
 
 import {motion} from"framer-motion";
@@ -16,42 +20,42 @@ const Projects = () => {
         {
             img:"movieApp",
             title:"MovieApp",
-            description:"",
+            description:"An app of finding movies",
             technology:[],
-            livesite:"",
+            livesite:"https://movie-app-cyan-psi.vercel.app/",
             github:"https://github.com/OldDognoob/MovieApp/tree/master/movie-app"
         },
         {
-            img:"",
-            title:"",
-            description:"",
-            technology:[],
-            livesite:"",
-            github:""
+            img:"Bettiorium",
+            title:"Bettiorium",
+            description:"A social website for a group of crazy friends",
+            technology:["REACT","AXIOS","REACT-PLAYER","STYLED-COMPONENTS"],
+            livesite:"https://bettiorium.vercel.app/",
+            github:"https://github.com/OldDognoob/Bettiorium"
         },
         {
-            img:"",
-            title:"",
-            description:"",
+            img:"HangMan",
+            title:"HangMan",
+            description:"A simple game of finding the correct word, otherwise we hang the man!",
             technology:[],
-            livesite:"",
-            github:""
+            livesite:"https://hang-man-christidisdimosthenis.vercel.app/",
+            github:"https://github.com/OldDognoob/HangMan"
         },
         {
-            img:"",
-            title:"",
-            description:"",
+            img:"TodoFast",
+            title:"TodoFast",
+            description:"A nice color todo list for Maria!",
             technology:[],
-            livesite:"",
-            github:""
+            livesite:"https://todo-fast.vercel.app/",
+            github:"https://github.com/OldDognoob/TodoFast"
         },
         {
-            img:"",
-            title:"",
-            description:"",
+            img:"QuizHooks",
+            title:"QuizHooks",
+            description:"A quiz game of five questions based on React Hooks",
             technology:[],
             livesite:"",
-            github:""
+            github:"https://github.com/OldDognoob/QuizHooks"
         },
         {
             img:"",
