@@ -54,16 +54,16 @@ const Projects = () => {
             title:"QuizHooks",
             description:"A quiz game of five questions based on React Hooks",
             technology:[],
-            livesite:"",
+            livesite:"https://quiz-hooks.vercel.app/",
             github:"https://github.com/OldDognoob/QuizHooks"
         },
         {
-            img:"",
-            title:"",
-            description:"",
-            technology:[],
-            livesite:"",
-            github:""
+            img:"FOODAPI",
+            title:"FoodAPI",
+            description:"Searching for new food recipes",
+            technology:["REACT","AXIOS"],
+            livesite:"https://food-api-six.vercel.app/",
+            github:"https://github.com/OldDognoob/FoodAPI"
         },
     ];
     const breakpointColumnsObj = {
