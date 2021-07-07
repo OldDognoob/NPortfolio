@@ -2,6 +2,7 @@ import React from "react";
 import Masonry from "react-masonry-css";
 
 /*Projects*/
+import movieApp from "../images/MovieApp.png";
 
 
 import {motion} from"framer-motion";
@@ -13,7 +14,7 @@ import "./Project.css";
 const Projects = () => {
     const projects =[
         {
-            img:"movie app",
+            img:"movieApp",
             title:"MovieApp",
             description:"",
             technology:[],
