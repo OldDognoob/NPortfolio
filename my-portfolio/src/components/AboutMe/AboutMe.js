@@ -9,19 +9,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const AboutMe = () => {
-  // const frontendskills = [
-  //   "HTML5",
-  //   "JAVASCRIPT",
-  //   "CSS",
-  //   "REACT",
-  //   "REDUX"
-   
-  // ];
-  // const backendskills = ["NODE.JS", "EXPRESS"];
-  // const database = ["PostgreSQL", "MS-SQL", "SQL", "MongoDB"];
-  // const programming = ["PYTHON"];
-  // const version = ["GITHUB","GIT"];
-  // const familiar = ["NEXT.JS","SASS", "LESS", "BOOTSTRAP","MATERIAL-UI","TAILWIND"];
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
@@ -62,57 +49,6 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        {/* <h3 className="text-center mt-5">My Skills Set</h3>
-        <div className="row mt-5 text-center mb-5">
-          <div className="col-md-4">
-            <div className="service-box">
-              <h4 className="brand-text">Frontend skills: </h4>
-              {frontendskills.map((skill) => (
-                <span className="singleSkill">{skill}</span>
-              ))}
-           
-            </div>
-          </div> */}
-          {/* <div className="col-md-4">
-            <div className="service-box">
-              <h4 className="brand-text">Backend skills: </h4>
-              {backendskills.map((skill) => (
-                <span className="singleSkill">{skill}</span>
-              ))}
-            </div>
-          </div> */}
-          {/* <div className="col-md-4">
-            <div className="service-box">
-              <h4 className="brand-text">Database skills: </h4>
-              {database.map((skill) => (
-                <span className="singleSkill">{skill}</span>
-              ))}
-            </div>
-          </div> */}
-          {/* <div className="col-md-4">
-            <div className="service-box">
-              <h4 className="brand-text">Programming Language: </h4>
-              {programming.map((skill) => (
-                <span className="singleSkill">{skill}</span>
-              ))}
-            </div>
-          </div> */}
-          {/* <div className="col-md-4">
-            <div className="service-box">
-              <h4 className="brand-text">Version Control: </h4>
-              {version.map((skill) => (
-                <span className="singleSkill">{skill}</span>
-              ))}
-            </div>
-          </div> */}
-          {/* <div className="col-md-4">
-            <div className="service-box">
-              <h4 className="brand-text">Familiar with: </h4>
-              {familiar.map((skill) => (
-                <span className="lowskill">{skill}</span>
-              ))}
-            </div>
-          </div> */}
           </div>
     </motion.div>
   );
