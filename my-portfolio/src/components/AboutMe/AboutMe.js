@@ -24,12 +24,14 @@ const AboutMe = () => {
             <p className="text-white">
               I recently completed the Full Stack Web Development and Computer
               Science program at Lambda School (innovative, project-based
-              software engineering academy based out of San Francisco, CA) I'm
-              inspired by creative and interesting web applications that are
+              software engineering academy based out of San Francisco, CA). <br />
+              I'm inspired by creative and interesting web applications that are
               accessible and provide instant value to users. <br />
               <br />
-              Driven by a passion for learning tools, I'm also incorporate new
-              features and technology. <br />
+              Driven by a passion for learning tools, I'm also incorporate  with new
+              features and technologies. 
+              <br />
+              My mission is to try to make people's life better or at least not make it worst <br />
               <br />
               I'd love to chat with you about possible collaborations or if
               you'd like to know more about my work.
