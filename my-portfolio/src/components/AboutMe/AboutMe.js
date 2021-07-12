@@ -34,7 +34,7 @@ const AboutMe = () => {
               My mission is to try to make people's life better or at least not make it worst <br />
               <br />
               I'd love to chat with you about possible collaborations or if
-              you'd like to know more about my work.
+              you'd like to know more about my work, take a look at my projects.
             </p>
           </div>
           <div className="col-md-4">
